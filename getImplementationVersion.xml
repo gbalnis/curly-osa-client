@@ -1,0 +1,43 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <osaVersionHeader originalVersion="04.09.09.114" serverVersion="04.09.09.114" xmlns="http://services.wolterskluwer.com/osa/transform"/>
+   </soap:Header>
+   <soap:Body>
+      <ns6:getImplementationVersion xmlns="http://services.wolterskluwer.com/docs/common" xmlns:ns2="http://services.wolterskluwer.com/types/common" xmlns:ns3="http://services.wolterskluwer.com/types/message" xmlns:ns4="http://services.wolterskluwer.com/types/capabilities" xmlns:ns5="http://services.wolterskluwer.com/docs/batch" xmlns:ns6="http://services.wolterskluwer.com/docs/diagnostics" xmlns:ns7="http://services.wolterskluwer.com/types/diagnostics">
+         <requestInfo>
+            <ns3:clientInfo>
+               <ns3:clientId>
+                  <ns2:id>unspecified</ns2:id>
+               </ns3:clientId>
+               <ns3:version>1</ns3:version>
+               <ns3:instanceId>
+                  <ns2:id>0e8f9cad-bc3c-458f-91c4-ad45accf05ab</ns2:id>
+               </ns3:instanceId>
+               <ns3:instanceTag>test</ns3:instanceTag>
+               <ns3:locale>en_us</ns3:locale>
+               <ns3:timezone>UTC</ns3:timezone>
+               <ns3:machineName>localhost</ns3:machineName>
+               <ns3:operatingSystemName></ns3:operatingSystemName>
+               <ns3:operatingSystemVersion></ns3:operatingSystemVersion>
+               <ns3:deviceModel xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <ns3:deviceModelVersion xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <ns3:runtimeName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <ns3:runtimeVersion></ns3:runtimeVersion>
+               <ns3:origin xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <ns3:originIp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <ns3:osaSuiteVersion>01.15.08.114</ns3:osaSuiteVersion>
+            </ns3:clientInfo>
+            <ns3:user xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <ns3:securityToken xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <ns3:sessionTicket xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <ns3:callerTicket xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <ns3:requestTicket xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <ns3:correlationId>
+               <ns2:id>8c937d0b-6067-4c17-b48c-114822d394d8</ns2:id>
+            </ns3:correlationId>
+            <ns3:productId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <ns3:noCache xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+         </requestInfo>
+      </ns6:getImplementationVersion>
+   </soap:Body>
+</soap:Envelope>
